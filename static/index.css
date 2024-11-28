@@ -78,10 +78,11 @@
 #portfolio_container{
   background-color: black;
   padding-top: 150px;
+  padding-right: 150px;
     padding-bottom: 150px;
     padding-left: 150px;
 }
-#tag_container_port{
+.tag_container_port{
   background-color: white;
   width: 127px;
   border-radius: 15px;
@@ -95,4 +96,201 @@
   padding-top: 150px;
     padding-bottom: 150px;
     padding-left: 150px;
+}
+
+
+.projects_title{
+  color: #e7e7e7;
+  font-size: 43px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+
+#scriptify_img{
+  border-radius: 20px;
+  height: 350px;
+  width: 675px;
+}
+
+#project_title{
+  color: #e7e7e7;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#sub_project_title{
+  font-size:13px;
+  color: #a3a3a3;
+  padding-right: 400px;
+}
+
+#visit_btn{
+  background-color: rgb(255, 255, 255);
+  border:none;
+  width: 131px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 10px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+#visit_btn_container{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#visit_btn:hover{
+  background-color: #e74c3c;
+  color: white;
+}
+
+#description_container{
+  margin-top: 62px;
+  margin-left: 50px;
+}
+
+.software_logo{
+  height: 30px;
+    width: 30px;
+    margin-left: 51px;
+    margin-top: 11px;
+    object-fit: cover;
+}
+
+#software_name{
+  color: #e7e7e7;
+  font-size: 27px;
+}
+
+#software_desc{
+  color: #e7e7e7;
+  padding-top: 11px;
+}
+
+#software_container{
+  margin-left: 100px;
+}
+
+#about_container{
+  background-color: rgb(255, 255, 255);
+  padding-top: 150px;
+    padding-bottom: 150px;
+    /* padding-left: 250px;
+    padding-right: 250px; */
+}
+
+.projects{
+  color: #000000;
+  font-size: 43px;
+  font-weight: bold;
+  padding-left: 158px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#sub_title_project{
+  text-align: center;
+  color: #a3a3a3;
+  padding-right: 150px;
+    padding-left: 150px;
+}
+
+
+#footer_img{
+  margin: auto;
+}
+
+#footer_container{
+  width: 256px;
+  display: block;
+  margin-left: 700px;
+  margin-right: auto;
+}
+
+#footer_container img{
+  width: 100%;
+}
+
+#foot_container{
+  background-color: black;
+  padding-top: 30px;
+    /* padding-bottom: 150px; */
+    padding-left: 150px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  #tag{
+    display: none;
+  }
+  #logo_container{
+    width: 100%;
+  }
+  #logo_container img{
+    height: 87px;
+    width: 273px;
+
+  }
+  #title{
+    padding-top: 30px;
+    font-size: 71px;
+  }
+  #sub_title{
+    display: none;
+  }
+  #banner_container{
+    padding: 60px;
+  }
+  .software_logo{
+    margin-left: 0;
+    height: 20px;
+    width: 20px;
+    /* margin-right: 20px; */
+  }
+  #software_name{
+    font-size: 22px;
+  }
+  #software_container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+  #tools_container{
+    padding: 61px;
+  }
+  #portfolio_container{
+    padding: 61px;
+  }
+  #description_container{
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  #sub_project_title{
+    padding: 0;
+  }
+  #scriptify_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #about_container{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .projects{
+    padding: 0px;
+  }
+  #sub_title_project{
+    padding: 0px;
+  }
+  #footer_container{
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

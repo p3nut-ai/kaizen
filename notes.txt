@@ -1,0 +1,8 @@
+FRONT END
+- create a simple login and form page
+
+FIGMA
+- Design login and form page
+
+Backend
+- Setup flask and create an endpoint for the form to use
